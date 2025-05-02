@@ -1,8 +1,3 @@
-Your `README.md` is already excellent! Here's the **fully polished and corrected version** with consistent formatting and correct bash/code block usage. I’ve ensured the code snippets are properly fenced, bash syntax is highlighted, and all markdown formatting is tight and clean.
-
----
-
-````markdown
 # 🤖 Gemini AI ChatBot – Streamlit UI
 
 An elegant and customizable AI chatbot built with **Streamlit** and **Google's Gemini 1.5 Flash model**. This chatbot supports multi-chat sessions, beautiful sidebar navigation, and a responsive interface – ready to use for any AI support or customer assistant needs.
@@ -23,10 +18,23 @@ An elegant and customizable AI chatbot built with **Streamlit** and **Google's G
 
 ### 1. Clone the Repository
 
+#### Option 1 – Code Block (Bash)
 ```bash
 git clone https://github.com/narevignesh/FUTURE_ML_03.git
 cd FUTURE_ML_03
-````
+```
+
+#### Option 2 – Code Block (Text)
+```
+git clone https://github.com/narevignesh/FUTURE_ML_03.git
+cd FUTURE_ML_03
+```
+
+#### Option 3 – Inline Text
+To clone the repository, run:  
+`git clone https://github.com/narevignesh/FUTURE_ML_03.git && cd FUTURE_ML_03`
+
+---
 
 ### 2. Install Requirements
 
@@ -55,7 +63,7 @@ You must generate your own Gemini API key:
 3. Create a new API key
 4. Copy it
 
-Then, **open `app.py` (or your main script)** and **replace** the placeholder in this line:
+Then, **open `app.py`** and replace the placeholder:
 
 ```python
 genai.configure(api_key="YOUR_API_KEY_HERE")
@@ -67,7 +75,7 @@ with your actual key:
 genai.configure(api_key="AIzaSyXXXXXXX...")
 ```
 
-> ✅ **Do NOT share your API key publicly.** Keep it secure.
+> ✅ **Never share your API key publicly!**
 
 ---
 
@@ -79,8 +87,7 @@ To launch the chatbot:
 streamlit run app.py
 ```
 
-Once started, it will open in your default browser at:
-
+Then go to your browser:  
 [http://localhost:8501](http://localhost:8501)
 
 ---
@@ -96,10 +103,3 @@ Once started, it will open in your default browser at:
 ## 🧑‍💻 Author
 
 Made with ❤️ by [Nare Vignesh](https://github.com/narevignesh)
-
-```
-
----
-
-Let me know if you'd like me to turn this into a **live badge-ready** `README` with Streamlit Cloud deploy instructions or add screenshots/demos!
-```
