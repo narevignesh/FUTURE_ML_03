@@ -4,6 +4,14 @@ An elegant and customizable AI chatbot built with **Streamlit** and **Google's G
 
 ---
 
+## 🖼️ Screenshot
+
+![Gemini AI ChatBot UI](./assets/screenshot.png)
+
+> *Modern UI with multi-chat support and instant responses powered by Gemini 1.5 Flash.*
+
+---
+
 ## 🚀 Features
 
 - ✅ Gemini 1.5 Flash integration  
