@@ -1,66 +1,97 @@
-# Customer Support Chatbot
 
-A modern customer support chatbot built with Transformers, TensorFlow, NLTK, and Streamlit.
+---
 
-## Features
+### 📄 `README.md`
 
-- Natural Language Processing using NLTK
-- Deep Learning model using Transformers and TensorFlow
-- Modern and responsive UI using Streamlit
-- Real-time chat interface
-- Text preprocessing and tokenization
-- Context-aware responses
+````markdown
+# 🤖 Gemini AI ChatBot – Streamlit UI
 
-## Prerequisites
+An elegant and customizable AI chatbot built with **Streamlit** and **Google's Gemini 1.5 Flash model**. This chatbot supports multi-chat sessions, beautiful sidebar navigation, and a responsive interface – ready to use for any AI support or customer assistant needs.
 
-- Python 3.8 or higher
-- pip (Python package installer)
 
-## Installation
+---
 
-1. Clone this repository:
+## 🚀 Features
+
+- ✅ Gemini 1.5 Flash integration
+- ✅ Multi-chat sidebar with delete and switch functionality
+- ✅ Stylish and responsive Streamlit UI
+- ✅ Fixed chat input bar with clean UX
+- ✅ No backend required – all frontend & API-based!
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. Clone the Repository
+
 ```bash
-git clone <repository-url>
-cd customer-support-chatbot
-```
+git clone https://github.com/narevignesh/FUTURE_ML_03.git
+cd FUTURE_ML_03
+````
 
-2. Create a virtual environment (recommended):
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+### 2. Install Requirements
 
-3. Install the required packages:
+Make sure you're using **Python 3.8+**, then install the dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
+> Contents of `requirements.txt`:
+>
+> ```
+> streamlit==1.32.0
+> google-generativeai==0.3.2
+> python-dotenv==1.0.0  # Optional
+> ```
 
-1. Start the Streamlit application:
+---
+
+## 🔑 Set Up Your Gemini API Key
+
+You must generate your own Gemini API key:
+
+1. Visit [Google AI Studio](https://aistudio.google.com/app/apikey).
+2. Log in with your Google account.
+3. Create a new API key.
+4. Copy it.
+
+Then, **open `app.py` (or your script)** and **replace** the placeholder in this line:
+
+```python
+genai.configure(api_key="YOUR_API_KEY_HERE")
+```
+
+with your own key:
+
+```python
+genai.configure(api_key="AIzaSyXXXXXXX...")  # Your actual key
+```
+
+---
+
+## 🏃 Run the Chatbot
+
 ```bash
 streamlit run app.py
 ```
 
-2. Open your web browser and navigate to the URL shown in the terminal (usually http://localhost:8501)
+Once started, it will launch in your default browser at [http://localhost:8501](http://localhost:8501)
 
-3. Start chatting with the bot!
+---
 
-## How it Works
+## 🧠 Powered By
 
-The chatbot uses:
-- NLTK for text preprocessing and tokenization
-- Transformers (DistilBERT) for understanding user queries
-- TensorFlow for model inference
-- Streamlit for the web interface
+* [Streamlit](https://streamlit.io/)
+* [Google Generative AI](https://ai.google.dev/)
+* [Gemini 1.5 Flash](https://ai.google.dev/gemini)
 
-## Customization
+---
 
-You can customize the chatbot by:
-- Modifying the response templates in `app.py`
-- Training the model on your specific dataset
-- Adjusting the UI elements in the Streamlit interface
 
-## License
+## 🧑‍💻 Author
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+Made with ❤️ by [Nare Vignesh](https://github.com/narevignesh)
+
+
